@@ -60,7 +60,7 @@ module.exports = {
         // },
         blog: {
           // path:'./blog',
-          routeBasePath:'/',
+          // routeBasePath:'/',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
