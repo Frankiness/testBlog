@@ -24,7 +24,7 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: ftp://121.196.99.165:21/www/wwwroot/Frankiness
+          ftp-server: ftp://121.196.99.165:21/
           ftp-username: ${{ secrets.ftp_user }}
           ftp-password: ${{ secrets.ftp_pwd }}
           local-dir: build/
